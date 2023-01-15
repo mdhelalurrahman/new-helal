@@ -116,13 +116,20 @@ main {
   gap: 2rem;
   align-items: center;
 }
+.feture-section > div {
+  flex: 1;
+}
+
 .feture-left {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding: 60px 0px;
-  position: relative;
 }
+.feture-left > div {
+  flex: 1;
+}
+
 .feture-right {
   padding: 50px 10px;
 }
